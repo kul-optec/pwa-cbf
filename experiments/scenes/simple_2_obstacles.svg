@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="simple_2_obstacles.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.84096521"
+     inkscape:cx="397.75724"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="999"
+     inkscape:window-x="1080"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
+       d="m 90.924786,119.24047 46.563564,30.83262 36.49576,-36.18114 -71.73305,-39.641951 z"
+       id="path1"
+       inkscape:label="obstacle" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:none"
+       d="m 45.934323,192.54661 7.550845,-40.27119 38.068856,-5.0339 29.259536,27.68644 -12.89937,22.96717 z"
+       id="path2"
+       inkscape:label="obstacle" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 38.068854,140.63453 142.34275,76.273955 174.45604,137.80296 87.778596,209.2214 33.978818,170.20868"
+       id="path3"
+       inkscape:label="refline"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

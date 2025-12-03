@@ -1,0 +1,40 @@
+[project]
+name = "cbf"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["optimization", "control", "MPC", "polytope"]
+dynamic = ["version", "description"]
+authors = [
+  { name = "Matisse Teuwen", email = "matisse.teuwen@kuleuven.be" },
+  { name = "Mathijs Schuurmans", email = "mathijs.schuurmans@kuleuven.be" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Software Development :: Version Control",
+  "Topic :: System :: Archiving",
+]
+requires-python = ">=3.9" # 3.8 is dropped in pycddlib 3.0.0
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scipy",
+  "cvxpy @ git+https://github.com/cvxpy/cvxpy.git@b09db0a1718bf0aaf9b224484e59a929e109bfd2", #  pin the version, since QPALM is not in the release branch yet.
+  "qpalm",
+  "geomin",
+  "svgpathtools",
+  "gurobipy",
+  "clarabel"
+] # Core dependencies
+
+[build-system]
+requires = ["flit_core >=3.7,<4"]
+build-backend = "flit_core.buildapi"
