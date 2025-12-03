@@ -112,7 +112,6 @@ class SimAnimation(BaseAnimation):
             self.scene.plot(ax=self.ax, line_opts={"color": "black", "ls": "--"})
         self.ax.set_xlabel("Position $x$")
         self.ax.set_ylabel("Position $y$")
-        self.ax.set_aspect("equal")
 
         line_styles = {"lw": 2, "color": "dodgerblue", "alpha": 0.3}
         line_styles.update(self._line_opts)
