@@ -11,7 +11,7 @@ Probabilistic Safety under Arbitrary Disturbance Distributions using Piecewise-A
 <a href="https://mathijssch.github.io/ecc26-supplementary/">
   <b>Project page</b>
 </a> |
-<a href="">
+<a href="https://arxiv.org/abs/2512.04194">
   <b>Paper</b>
 </a>
 
@@ -68,11 +68,17 @@ All experiments from the paper can be reproduced using the scripts in `./experim
 If you use this code, please cite:
 
 ```bibtex
-@article{teuwen2025pwaCBF,
-  title={Probabilistic Safety under Arbitrary Disturbance Distributions using Piecewise-Affine Control Barrier Functions},
-  author={Teuwen, Matisse and Schuurmans, Mathijs and Patrinos, Panagiotis},
-  journal={arXiv preprint arXiv:YYMM.NNNNN},
-  year={2025}
+@article{teuwen2025-pwa-cbf,
+  title         = "Probabilistic safety under arbitrary disturbance
+                   distributions using piecewise-affine control barrier
+                   functions",
+  author        = "Teuwen, Matisse and Schuurmans, Mathijs and Patrinos,
+                   Panagiotis",
+  month         =  dec,
+  year          =  2025,
+  archivePrefix = "arXiv",
+  primaryClass  = "math.OC",
+  eprint        = "2512.04194"
 }
 ```
 
